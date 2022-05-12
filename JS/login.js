@@ -1,9 +1,8 @@
-let users = []
+const users = JSON.parse(localStorage.getItem('users')) ? JSON.parse(localStorage.getItem('users')) : []
 
 function login(){
   let email = document.getElementById("username").value
   let password = document.getElementById("password").value
-  let users = JSON.parse(localStorage.getItem('users'))
 
   for( let i =0; i < users.length; i++){
     
