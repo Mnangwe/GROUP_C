@@ -10,7 +10,7 @@ function login(){
     if(email == users[i].email && password == users[i].password){
       
           alert(`Welcome back ${users[i].email}`)
-          return window.location.replace("index.html")
+          return window.location.replace("to-do.html")
 
     }
   }
@@ -36,7 +36,7 @@ function register(){
     
      alert("Welcome to On-da go listing!")
 
-     return window.location.replace("index.html")
+     return window.location.replace("to-do.html")
 
  } else {
      return alert("confirmation failed")
