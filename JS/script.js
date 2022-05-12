@@ -107,5 +107,5 @@ taskInput.addEventListener("keyup", e => {
 
 function signout(){
     alert(`Goodbye see you next time`)
-    return window.location.replace("Log-in.html")
+    return window.location.replace("index.html")
 }
